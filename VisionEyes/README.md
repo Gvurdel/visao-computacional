@@ -32,5 +32,5 @@ O projeto utiliza um modelo pré-treinado para a detecção de pontos faciais, f
 - `bzip2 -d shape_predictor_68_face_landmarks.dat.bz2`
 
 - Execute o script:
-- `python detector_faces.py`
+- `python detector_eyes.py`
 
