@@ -19,13 +19,13 @@ O projeto utiliza um modelo pré-treinado para a detecção de pontos faciais, f
 
 ## Executando o Projeto
 - Criar um ambiente virtual:
-- `python -m venv myenv`
+- `python3.8 -m venv myenv`
 
 - Ativar o ambiente virtual:
 - `source myenv/bin/activate` macOS
 
 - Com o ambiente virtual ativado, instale as bibliotecas necessárias:
-- `pip install opencv-python dlib scipy`
+- `pip install opencv-python-headless dlib scipy`
 
 - Baixe o Modelo Pré-Treinado:
 - `curl -O http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2`
